@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h-menu{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: orangered;
+    font-variant: small-caps;
+    text-align: center;
+    border-radius: 20px;
+    font-size: small;
+}
+.h-menu>li{
+display: inline-block;
+}
+.h-menu>li>a{
+    display: inline-block;
+    line-height: 40px;
+    padding: 0px 5px;
+    color: white;
+    text-decoration: none;
+    
+}
+.h-menu>li>a:hover{
+    color: yellow;
+}
+.h-menu ul {
+    position: absolute;
+    display: nome;
+}
+
+.h-menu>li:hover>ul {
+    display: block;
+}
+.h-menu ul{
+    width: 170px;
+padding: 0px;
+margin: 0px;
+list-style: nome;
+background-color: rgba(255, 68, 0, 0);
+font-variant: small-caps;
+text-align:left;
+border-radius: 3px;
+box-shadow: 0 0 1px gray;
+position: absolute;
+display: none;
+}
+.h-menu>li{
+   position: relative;
+  
+
+}
+.h-menu ul>li>a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    padding: 0 5px;
+    border-bottom: 1px dotted lightgray;
+    background-color: white;
+}
+.h-menu ul>li>a:hover{
+    color: white;
+    background-color: orangered;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none ;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 30%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+.btn{
+    display: inline-block;
+    background: #ff533b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.cos-3 img{
+    width: 120%;
+}
+.cos-3{
+    flex-basis: 10%;
+    min-width: 250px;
+    margin-bottom: 40px;
+}
+.col-3 img {
+    width: 120%;
+}
+small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 29%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+   /* ---------------------- hiệu ứng ---------------- */
+    transition: transform 0.3s;
+}
+.col-4 img{
+    width: 80%;
+}
+.title{
+    text-align: center;
+margin: 0 auto 80px;
+position: relative;
+line-height: 60px;
+color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%) ;
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+font-size: 14px;
+}
+.rating .bx{
+    color: #ff523b;
+}
+.col-4:hover{
+transform: translateY(-5px);
+}
+.offer{
+    background: radial-gradient(#fff,#ff6464);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 #time{
+    padding: 50px;
+    background-image:none;
+    background: radial-gradient(#fff,#ff6464);
+}
+.small{
+    color: #555;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: rgb(128, 12, 97);
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+/* ssssssssssss */
+.brands{
+    margin: 100px auto;
+
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+   
+}
+.footer{
+   background: rgb(0, 0, 0);
+   color: #8a8a8a;
+   font-size: 14PX;
+   padding: 20PX 0 10PX;
+}
+.footer P{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: rgb(249, 249, 249);
+    margin-bottom: 10px;
+}
+.footer-col-1{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer time{
+    border-color: #333;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.menu-icon{
+    width: 20px;
+    margin-left: 20px;
+    display: none;
+}
+/* ........ */
+@media only screen and (max-width:800px){
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100px;
+        overflow: hidden;
+        transition: max-height 0.3s;
+
+    }
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+/* ///////////// */
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight:normal;
+}
+.cart-page img{
+    width: 90px;
+}
+tb{
+    padding: 10px 5px;
+}
+td input{
+    
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: block;
+    justify-content: flex-end;
+
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+
+
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+.header{
+    background: rgb(255, 255, 255);
+    color:white;
+    padding: 0.3em 1em;
+}
+.main{
+  
+}
+.content,
+.sidebar{
+    box-sizing: border-box;
+}
+.content{
+    background: #e8e8e8;
+    padding:0.3em 1em ;
+    margin-bottom: 1em;
+}
+.sidebar{
+    background: #c3c3c3;
+    font-size: 95%;
+    padding: 0.3em 1em;
+}
+
+@media screen and (min-width: 600px){
+    .main::before, .main::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .main{
+        max-width: 100%;
+    }
+    .content{
+        width: 63.5%;
+        float: left;
+        margin-right: 1.5%;
+    }
+    .sidebar{
+        width: 35%;
+        float: left;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .content{
+        max-width: 1280px;
+        margin: 0 auto ;
+    }
+}
